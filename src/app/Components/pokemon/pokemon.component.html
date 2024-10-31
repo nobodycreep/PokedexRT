@@ -1,0 +1,20 @@
+<div class="capture-container">
+    <div class="pokedex-container">
+        <button class="btn" (click)="anteriorPokemon()">Anterior</button>
+        <img [src]="imageURL" alt="Imagen de Pokemon">
+        <button class="btn" (click)="siguientePokemon()">Siguiente</button>
+    </div>
+    <div class="pokedex-container">
+        <button class="btn-capturar" (click)="capturarPokemon()">Capturar</button>
+    </div>
+    <div class="capture-container">
+        <div class="info">
+            <img class="icon" src="https://www.freeiconspng.com/thumbs/pokeball-png/pokeball-pokemon-ball-picture-11.png">: {{ pokeballs }}
+        </div>
+        <div class="info">
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/188/188987.png">: {{ capturedPokemons }}
+        </div>
+    </div>
+</div>
+  
+  

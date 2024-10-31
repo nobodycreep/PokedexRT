@@ -1,0 +1,39 @@
+.medalla-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.btn
+{
+    height: 30px;
+    width: 40px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn:hover 
+{
+    transform: translateY(-2px);
+    box-shadow: 0 3px #85755e;
+}
+
+.btn:active 
+{
+    transform: translateY(2px);
+    box-shadow: 0 2px #cc7a00;
+}
+img 
+{
+    width: 50px; /* ancho de la imagen */
+    height: 50px; /* alto de la imagen */
+}
